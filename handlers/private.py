@@ -9,9 +9,9 @@ from helpers.filters import other_filters2
 async def start(_, message: Message):
     await message.reply_sticker("CAACAgQAAxkBAAEJar1gfUPxtIX1OutHd1sOi37QRKjBTQACPgADiHb1PyaUZ16x2sykHwQ")
     await message.reply_text(
-        f"""**Hey, I'm ⚡ 𝙎𝙝𝙞𝙣𝙘𝙝𝙖𝙣 𝗠𝗨𝗦𝗜𝗖 𝐁𝐎𝐓 ™ ⚡
+        f"""**Hey, I'm ⚡ 𝐑𝐈𝐂𝐇 𝗠𝗨𝗦𝗜𝗖 𝐁𝐎𝐓 ™ ⚡
 
-I can play music in your group's voice call. Developed by [𝙎𝙝𝙞𝙣𝙘𝙝𝙖𝙣](https://t.me/Shinchan7222).
+I can play music in your group's voice call. Developed by [𝐑𝐈𝐂𝐇](https://t.me/RICHSPE8).
 
 Add me to your group and play music freely!**
         """,
@@ -19,17 +19,17 @@ Add me to your group and play music freely!**
             [
                 [
                     InlineKeyboardButton(
-                        "🤞🏻𝚈𝙾𝚄𝚁 𝙼𝙰𝙺𝙴𝚁🤞🏻", url="https://t.me/Shinchan7222")
+                        "🤞🏻𝚈𝙾𝚄𝚁 𝙼𝙰𝙺𝙴𝚁🤞🏻", url="https://t.me/RICHSPE8")
                   ],[
                     InlineKeyboardButton(
-                        "🔰𝙶𝚁𝙾𝚄𝙿🔰", url="https://t.me/ohaisa_kya"
+                        "🔰𝙶𝚁𝙾𝚄𝙿🔰", url="https://t.me/RICHSPEED87"
                     ),
                     InlineKeyboardButton(
                         "🎛️ 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂 🎛️", url="https://telegra.ph/MusicBot-Robot-MusicBot-Robo-03-14"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "😎 𝙰𝙳𝙳 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 😎", url="https://t.me/Shinchanmusicbot?startgroup=true"
+                        "😎 𝙰𝙳𝙳 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 😎", url="https://t.me/RICHSPEEDMUSICBOT?startgroup=true"
                     )]
             ]
         ),
@@ -38,12 +38,12 @@ Add me to your group and play music freely!**
 
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""**⚡ 𝙎𝙝𝙞𝙣𝙘𝙝𝙖𝙣 𝗠𝗨𝗦𝗜𝗖 𝐁𝐎𝐓 ™ ⚡ is on fire 🔥 ✅**""",
+      await message.reply_text("""**⚡ 𝐑𝐈𝐂𝐇 𝗠𝗨𝗦𝗜𝗖 𝐁𝐎𝐓 ™ ⚡ is on fire 🔥 ✅**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "𝙿𝙻𝙰𝚈𝙸𝙽𝙶 𝙱𝚈 𝚈𝙾𝚄𝚁 DAD🤙🏻", url="https://t.me/Shinchan7222")
+                        "𝙿𝙻𝙰𝚈𝙸𝙽𝙶 𝙱𝚈 𝚈𝙾𝚄𝚁 DAD🤙🏻", url="https://t.me/RICHSPE8")
                 ]
             ]
         )
